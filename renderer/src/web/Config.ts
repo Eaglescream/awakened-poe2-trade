@@ -85,8 +85,8 @@ export async function initConfig () {
 export function poeWebApi () {
   const { language, realm } = AppConfig()
   switch (language) {
-    case 'en': return 'www.pathofexile.com'
-    case 'ru': return 'ru.pathofexile.com'
+    case 'en': return 'www.pathofexile2.com'
+    case 'ru': return 'ru.pathofexile2.com'
     case 'cmn-Hant': return (realm === 'pc-garena')
       ? 'pathofexile.tw'
       : 'www.pathofexile.com'
